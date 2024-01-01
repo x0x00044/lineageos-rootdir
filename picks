@@ -58,6 +58,7 @@ repopickchain 369913 # SystemUI: handle camera launch gesture from keyhandler
 repopickchain 369909 # Configurable 0, 90, 180 and 270 degree rotation
 repopickchain 369911 # Framework: Volume key cursor control
 repopickchain 369914 # Allow adjusting progress on touch events.
+repopickchain 369986 # SystemUI: Add API for runtime taskbar config
 
 # frameworks/native
 repopickchain 371144 # InputDispatcher: On keypress, deliver keycode to pokeUserActivity
