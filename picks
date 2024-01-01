@@ -52,15 +52,22 @@ repopickchain 368311 # Camera: Avoid roundBufferDimensionsNearest also for HAL_P
 
 # frameworks/base
 repopickchain 377843 # Screenrecord: Dismiss notification on stop
+repopickchain 370006 # Download: Add support to manually pause/resume download
+repopickchain 369912 # Support for device specific key handlers
+repopickchain 369913 # SystemUI: handle camera launch gesture from keyhandler
+repopickchain 369909 # Configurable 0, 90, 180 and 270 degree rotation
+repopickchain 369911 # Framework: Volume key cursor control
 
 # frameworks/native
 repopickchain 371144 # InputDispatcher: On keypress, deliver keycode to pokeUserActivity
 
 # packages/apps/Settings
 repopickchain 376991 # Hide fingerprint settings help if URL is empty
+repopickchain 368775 # Allow the user to change the BackupTransport
 
 # packages/apps/SetupWizard
 repopickchain 371961 # SetupWizard: Add step for changing theme
+repopickchain 378275 # fixup! Simplify biometric detection
 
 # packages/modules/adb
 repopickchain 368672 # Squashed import of adb root patches
@@ -70,6 +77,8 @@ repopickchain 368707 # Telephony: Add ERI configuration for U.S. Cellular
 
 # system/sepolicy
 repopickchain 375640 # Label wifi.interface.
+repopickchain 368747 # sepolicy: Add sdcard_posix_contextmount_type attribute
+repopickchain 375191 # sepolicy: Allow fsck_untrusted to be sys_admin
 
 # system/vold
 repopickchain 368773 # vold: fix failing to format zero-ed out SD card
